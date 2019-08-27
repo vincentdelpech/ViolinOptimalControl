@@ -103,7 +103,7 @@ int  main ()
     algorithm.initializeControls("../Results/ControlsAv1Muscle.txt");
 
 
-    GnuplotWindow window;                           //  visualize  the  results  in  a  Gnuplot  window
+    GnuplotWindow window; //  visualize  the  results  in  a  Gnuplot  window
     window.addSubplot(  x ,  "STATES x" ) ;
     window.addSubplot( u ,  "CONTROL  u" ) ;
     window.addSubplot( T ,  "Time parameter T" ) ;
