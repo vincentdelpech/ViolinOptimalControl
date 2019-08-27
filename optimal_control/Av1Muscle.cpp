@@ -5,7 +5,7 @@
 //#define DebugForce ;
 //#define DebugActivation ;
 //#define DebugLongueur ;
-using namespace std;
+
 USING_NAMESPACE_ACADO
 
 /* ---------- Model ---------- */
